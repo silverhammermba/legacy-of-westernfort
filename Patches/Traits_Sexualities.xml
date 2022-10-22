@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- gay by default -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TraitDef[defName="Gay"]/commonality</xpath>
+		<value>
+			<commonality>100</commonality>
+		</value>
+	</Operation>
+
+	<!-- bisexuality is undefined -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TraitDef[defName="Bisexual"]/commonality</xpath>
+		<value>
+			<commonality>0</commonality>
+		</value>
+	</Operation>
+
+	<!-- TODO: maybe don't need to change this one? -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TraitDef[defName="Asexual"]/commonality</xpath>
+		<value>
+			<commonality>50</commonality>
+		</value>
+	</Operation>
+
+	<!-- remove sexism -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TraitDef[defName="DislikesMen"]/commonality</xpath>
+		<value>
+			<commonality>0</commonality>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/TraitDef[defName="DislikesMen"]/commonalityFemale</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TraitDef[defName="DislikesWomen"]/commonality</xpath>
+		<value>
+			<commonality>0</commonality>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/TraitDef[defName="DislikesWomen"]/commonalityFemale</xpath>
+	</Operation>
+</Patch>

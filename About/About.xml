@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Legacy of Westernfort</name>
+	<author>Maxwell Anselm</author>
+	<packageId>SilverhammerMBA.LegacyOfWesternfort.Base</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>Based on the Celaeno book series by Jane Fletcher, this mod seeks to interpret the setting of the books hundreds of years after their conclusion.</description>
+</ModMetaData>
