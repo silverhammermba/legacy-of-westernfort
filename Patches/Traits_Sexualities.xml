@@ -16,13 +16,7 @@
 		</value>
 	</Operation>
 
-	<!-- TODO: maybe don't need to change this one? -->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/TraitDef[defName="Asexual"]/commonality</xpath>
-		<value>
-			<commonality>50</commonality>
-		</value>
-	</Operation>
+	<!-- Leave Asexual as-is for now -->
 
 	<!-- remove sexism -->
 	<Operation Class="PatchOperationReplace">
