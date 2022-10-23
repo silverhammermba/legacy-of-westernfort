@@ -7,4 +7,15 @@
 		<li>1.4</li>
 	</supportedVersions>
 	<description>Based on the Celaeno book series by Jane Fletcher, this mod seeks to interpret the setting of the books hundreds of years after their conclusion.</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
 </ModMetaData>
