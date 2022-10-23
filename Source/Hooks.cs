@@ -40,6 +40,7 @@ namespace LegacyOfWesternfort
                 return;
 
             // If parents are both females, get the 2nd one.
+            // N.B. in-game both relations are listed as "Mother". I'm guessing the string used is gender-based
             IEnumerable<DirectPawnRelation> directRelations = pawn.relations.DirectRelations.Where(v => v.def == PawnRelationDefOf.Parent);
             DirectPawnRelation male = directRelations.FirstOrDefault(v => v.otherPawn.gender != Gender.Female);
 
@@ -54,7 +55,7 @@ namespace LegacyOfWesternfort
         }
     }
 
-    // for some reason we patch the gender when generating the pawn's age
+    // for some reason we patch the gender right before generating the pawn's age
     [HarmonyPatch(typeof(PawnGenerator), "GenerateRandomAge")]
     public static class Patch_PawnGenerator_GenerateRandomAge
     {

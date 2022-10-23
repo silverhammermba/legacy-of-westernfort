@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<!-- gay by default -->
+	<!-- TODO: for some reason about 4% of pawns still aren't gay, effectively making them asexual -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/TraitDef[defName="Gay"]/commonality</xpath>
 		<value>
