@@ -7,6 +7,7 @@ fixes = {
   /\bmom\b/i => 'birth mom',
   /\bmother\b/i => 'birth mother',
   /\bfather/i => 'gene mother',
+  /\bbrother/i => 'sister',
   /grandfather/i => 'grandmother',
   /\bdad(s?)\b/i => 'mom\1',
   /\bman\b/i => 'woman',
