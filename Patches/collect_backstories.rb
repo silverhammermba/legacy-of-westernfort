@@ -34,7 +34,8 @@ end
 
 patch_doc =
   begin
-    Nokogiri::XML(File.open(ARGV[0]))
+    # try to add to existing patch file. noblanks ensures that new patches get pretty-printed
+    Nokogiri::XML(File.open(ARGV[0]), &:noblanks)
   rescue
     Nokogiri::XML::Document.new
   end
@@ -89,6 +90,5 @@ ARGV[1..-1].each do |input|
 end
 
 File.open(ARGV[0], ?w) do |f|
-  # TODO: newly added entries don't get anywhitespace around them, which makes them hard to read
   f.write patch_doc.to_xml
 end
