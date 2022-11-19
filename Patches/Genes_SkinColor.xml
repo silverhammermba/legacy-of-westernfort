@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/GeneDef[defName="Skin_Melanin1"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/GeneDef[defName="Skin_Melanin2"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/GeneDef[defName="Skin_Melanin3"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/GeneDef[defName="Skin_Melanin4"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/GeneDef[defName="Skin_Melanin5"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/GeneDef[defName="Skin_Melanin6"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/GeneDef[defName="Skin_Melanin7"]</xpath>
+	</Operation>
+</Patch>
