@@ -223,7 +223,7 @@ Though never a tough or social boy, [PAWN_pronoun] loved to dig through history 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/BackstoryDef[defName="FeudalLordling56"]/baseDesc</xpath>
     <value>
-      <baseDesc>[PAWN_nameDef] grew up on a feudal world that was part of a multi-planet empire. As the daughter of a high lord, [PAWN_pronoun] enjoyed many privileges.
+      <baseDesc>[PAWN_nameDef] grew up on a feudal world that was part of a multi-planet empire. As the daughter of a high lady, [PAWN_pronoun] enjoyed many privileges.
 
 [PAWN_pronoun] learned to maneuver in both the political landscape and in close quarters combat.</baseDesc>
       <!--[PAWN_nameDef] grew up on a feudal world that was part of a multi-planet empire. As the son of a high lord, [PAWN_pronoun] enjoyed many privileges.
@@ -656,7 +656,7 @@ A revolution brought [PAWN_possessive] father's businesses under state control. 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/BackstoryDef[defName="ArtSlave57"]/baseDesc</xpath>
     <value>
-      <baseDesc>[PAWN_nameDef] was born on the dark edge of a tidally-locked urbworld. After an argument, [PAWN_possessive] gene mother sold [PAWN_objective] to a local district lord as a slave artist.
+      <baseDesc>[PAWN_nameDef] was born on the dark edge of a tidally-locked urbworld. After an argument, [PAWN_possessive] gene mother sold [PAWN_objective] to a local district lady as a slave artist.
 
 Forced to create art or be punished, [PAWN_pronoun] withdrew and became unable to form relations with others.</baseDesc>
       <!--[PAWN_nameDef] was born on the dark edge of a tidally-locked urbworld. After an argument, [PAWN_possessive] father sold [PAWN_objective] to a local district lord as a slave artist.
@@ -1030,6 +1030,567 @@ One night, in a nightmare, [PAWN_nameDef] was confronted by all the men and wome
     <value>
       <baseDesc>[PAWN_nameDef] spent her childhood selling knockoff cigarettes to 15-year-olds. The cigarettes were often full of grass clippings.</baseDesc>
       <!--[PAWN_nameDef] spent his childhood selling knockoff cigarettes to 15-year-olds. The cigarettes were often full of grass clippings.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Taster16"]/baseDesc</xpath>
+    <value>
+      <baseDesc>As the taster for a medieval queen, any dish served at the royal table had to be sampled first by [PAWN_nameDef]. [PAWN_pronoun] lived a decadent lifestyle at court, getting fat and doing very little work.</baseDesc>
+      <!--As the taster for a medieval king, any dish served at the royal table had to be sampled first by [PAWN_nameDef]. [PAWN_pronoun] lived a decadent lifestyle at court, getting fat and doing very little work.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MedievalDoctor40"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] worked as a doctor on a medieval planet. [PAWN_pronoun] firmly believes that most ailments can be cured with a little bloodletting.\n\n[PAWN_pronoun] was also a master anaesthetist, developing a specialty technique that involved a heavy blow to the head.</baseDesc>
+      <!--[PAWN_nameDef] worked as a doctor on a medieval planet. [PAWN_pronoun] firmly believes that most ailments can be cured with a little bloodletting.\n\n[PAWN_pronoun] was also a master anaesthetist, developing a specialty technique that involved a heavy blow to the head.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MedievalSlave49"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] grew up pulling carts and digging holes on a medieval world. Simple manual labor is [PAWN_possessive] oldest companion - along with the mistress's lash.\n\n[PAWN_pronoun] didn't learn to read until age nine.</baseDesc>
+      <!--[PAWN_nameDef] grew up pulling carts and digging holes on a medieval world. Simple manual labor is [PAWN_possessive] oldest companion - along with the master's lash.\n\n[PAWN_pronoun] didn't learn to read until age nine.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="HouseServant63"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a domestic servant to wealthy homeowners.\n\n[PAWN_pronoun] got to know the kitchens and basements of [PAWN_possessive] mistress's mansion well, but never did any work outside.</baseDesc>
+      <!--[PAWN_nameDef] was a domestic servant to wealthy homeowners.\n\n[PAWN_pronoun] got to know the kitchens and basements of [PAWN_possessive] master's mansion well, but never did any work outside.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Butcher40"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time.</baseDesc>
+      <!--[PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PopIdol59"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] performed and did interviews constantly. [PAWN_pronoun] refined [PAWN_possessive] skills in dancing and singing, and became a master of social presentation.</baseDesc>
+      <!--[PAWN_nameDef] performed and did interviews constantly. [PAWN_pronoun] refined [PAWN_possessive] skills in dancing and singing, and became a master of social presentation.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PirateKing69"]/title</xpath>
+    <value>
+      <title>pirate queen</title>
+      <!--pirate king-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="VoidRaider74"]/baseDesc</xpath>
+    <value>
+      <baseDesc>Craving adventure and glory, [PAWN_nameDef] set out across the void with a raider band, swearing [PAWN_possessive] loyalty to [PAWN_possessive] band and sisters, and spreading their glory through the stars with [PAWN_possessive] blade and pistol in hand.</baseDesc>
+      <!--Craving adventure and glory, [PAWN_nameDef] set out across the void with a raider band, swearing [PAWN_possessive] loyalty to [PAWN_possessive] band and brothers, and spreading their glory through the stars with [PAWN_possessive] blade and pistol in hand.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MedievalKnight26"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] fought for queen and country on the battlefield, where [PAWN_pronoun] further honed [PAWN_possessive] skill as a swordswoman. [PAWN_possessive] greatest glory was leading a charge into an enemy courtroom and capturing the queen at sword point.</baseDesc>
+      <!--[PAWN_nameDef] fought for king and country on the battlefield, where [PAWN_pronoun] further honed [PAWN_possessive] skill as a swordsman. [PAWN_possessive] greatest glory was leading a charge into an enemy courtroom and capturing the king at sword point.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="VinhoKing98"]/title</xpath>
+    <value>
+      <title>vinho queen</title>
+      <!--vinho king-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="VinhoKing98"]/titleShort</xpath>
+    <value>
+      <titleShort>booze queen</titleShort>
+      <!--booze king-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="VinhoKing98"]/baseDesc</xpath>
+    <value>
+      <baseDesc>After prohibition came to Aracena VI, [PAWN_nameDef] expanded [PAWN_possessive] underground liquor business until it dominated the market on two continents. They called [PAWN_objective] the Vinho Queen.
+
+Though [PAWN_pronoun] mostly controlled [PAWN_possessive] competition by masterful political maneuvering, [PAWN_pronoun] was not above the occasional beat-down or stiletto assassination.</baseDesc>
+      <!--After prohibition came to Aracena VI, [PAWN_nameDef] expanded [PAWN_possessive] underground liquor business until it dominated the market on two continents. They called [PAWN_objective] the Vinho King.
+
+Though [PAWN_pronoun] mostly controlled [PAWN_possessive] competition by masterful political maneuvering, [PAWN_pronoun] was not above the occasional beat-down or stiletto assassination.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PlanetaryDiplomat7"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef]'s passion and profession was interplanetary politics. [PAWN_pronoun] was a master of social manipulation and negotiation and devoted [PAWN_objective]self to working towards peace, compromise and mutual benefit.</baseDesc>
+      <!--[PAWN_nameDef]'s passion and profession was interplanetary politics. [PAWN_pronoun] was a master of social manipulation and negotiation and devoted [PAWN_objective]self to working towards peace, compromise and mutual benefit.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="HunterOfTheKing53"]/title</xpath>
+    <value>
+      <title>hunter of the queen</title>
+      <!--hunter of the king-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="HiredAssassin37"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a master thief, working mostly for organized crime. Over time, [PAWN_pronoun] made a name for [PAWN_objective]self and shifted [PAWN_possessive] business into the paid "removal" of human threats.</baseDesc>
+      <!--[PAWN_nameDef] was a master thief, working mostly for organized crime. Over time, [PAWN_pronoun] made a name for [PAWN_objective]self and shifted [PAWN_possessive] business into the paid "removal" of human threats.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="RaiderKing38"]/title</xpath>
+    <value>
+      <title>raider queen</title>
+      <!--raider king-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Hunter73"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a master hunter.
+
+[PAWN_pronoun] learned to track and trap any animal in the most dangerous of places, and had deep knowledge of many ingenious methods for taking down specific large animals.</baseDesc>
+      <!--[PAWN_nameDef] was a master hunter.
+
+[PAWN_pronoun] learned to track and trap any animal in the most dangerous of places, and had deep knowledge of many ingenious methods for taking down specific large animals.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MasterTrader65"]/title</xpath>
+    <value>
+      <title>master trader</title>
+      <!--master trader-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MasterTrader65"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a master at trading. [PAWN_pronoun] earned [PAWN_possessive] nickname by helping a village through a trying time.</baseDesc>
+      <!--[PAWN_nameDef] was a master at trading. [PAWN_pronoun] earned [PAWN_possessive] nickname by helping a village through a trying time.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ArchotechSpy75"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a cybernetic researcher. Studying a transcended world, [PAWN_pronoun] became too involved with [PAWN_possessive] subjects. Over time, the archotech recruited [PAWN_objective] into its service, and used [PAWN_objective] as a spy.
+
+When [PAWN_pronoun] later rebelled against [PAWN_possessive] inhuman mistress, it sent mechanoids across space to hunt [PAWN_objective] down.</baseDesc>
+      <!--[PAWN_nameDef] was a cybernetic researcher. Studying a transcended world, [PAWN_pronoun] became too involved with [PAWN_possessive] subjects. Over time, the archotech recruited [PAWN_objective] into its service, and used [PAWN_objective] as a spy.
+
+When [PAWN_pronoun] later rebelled against [PAWN_possessive] inhuman master, it sent mechanoids across space to hunt [PAWN_objective] down.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="DromedaryKnight37"]/baseDesc</xpath>
+    <value>
+      <baseDesc>Having caught the eye of [PAWN_possessive] people's Sand Queen, [PAWN_nameDef] was trained in the Sandy Boomrat fighting technique.
+
+Always with a camel to carry [PAWN_possessive] things, [PAWN_pronoun] served [PAWN_possessive] sand people faithfully.</baseDesc>
+      <!--Having caught the eye of [PAWN_possessive] people's Sand King, [PAWN_nameDef] was trained in the Sandy Boomrat fighting technique.
+
+Always with a camel to carry [PAWN_possessive] things, [PAWN_pronoun] served [PAWN_possessive] sand people faithfully.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MasterChef48"]/title</xpath>
+    <value>
+      <title>master chef</title>
+      <!--master chef-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Mercenary20"]/baseDesc</xpath>
+    <value>
+      <baseDesc>After escaping [PAWN_possessive] home planet, [PAWN_nameDef] fell in with a band of mercenaries. [PAWN_pronoun] fought alongside [PAWN_possessive] sisters in arms for many years.
+
+One day, they were caught in a fight they couldn't win. Refusing to retreat, [PAWN_nameDef] was shot down by [PAWN_possessive] enemies. [PAWN_pronoun] was alarmed to awake in a heap of corpses, mysteriously unharmed.</baseDesc>
+      <!--After escaping [PAWN_possessive] home planet, [PAWN_nameDef] fell in with a band of mercenaries. [PAWN_pronoun] fought alongside [PAWN_possessive] brothers and sisters in arms for many years.
+
+One day, they were caught in a fight they couldn't win. Refusing to retreat, [PAWN_nameDef] was shot down by [PAWN_possessive] enemies. [PAWN_pronoun] was alarmed to awake in a heap of corpses, mysteriously unharmed.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ColonyEngineer7"]/baseDesc</xpath>
+    <value>
+      <baseDesc>The children took over the facility, and they declared independence from the corporation.
+
+[PAWN_nameDef] had used the VR system to become a master engineer, and [PAWN_pronoun] worked diligently to prepare the colony for the corporation's inevitable return.</baseDesc>
+      <!--The children took over the facility, and they declared independence from the corporation.
+
+[PAWN_nameDef] had used the VR system to become a master engineer, and [PAWN_pronoun] worked diligently to prepare the colony for the corporation's inevitable return.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="KingOfPirates25"]/title</xpath>
+    <value>
+      <title>queen of pirates</title>
+      <!--king of pirates-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="KingOfPirates25"]/baseDesc</xpath>
+    <value>
+      <baseDesc>As a self-proclaimed queen of pirates, [PAWN_nameDef] was ruthless. Manipulative in nature, [PAWN_pronoun] was not afraid to sacrifice the people around [PAWN_objective] in service of [PAWN_possessive] own goals. [PAWN_pronoun] was a good shot, but even more skilled with a sword, and [PAWN_pronoun] loved the adrenaline rush of close combat.</baseDesc>
+      <!--As a self-proclaimed king of pirates, [PAWN_nameDef] was ruthless. Manipulative in nature, [PAWN_pronoun] was not afraid to sacrifice the people around [PAWN_objective] in service of [PAWN_possessive] own goals. [PAWN_pronoun] was a good shot, but even more skilled with a sword, and [PAWN_pronoun] loved the adrenaline rush of close combat.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="VengefulNomad67"]/baseDesc</xpath>
+    <value>
+      <baseDesc>After refusing the wild demands of a tyrannical queen, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.
+
+        [PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a manufactory, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge.</baseDesc>
+      <!--After refusing the wild demands of a tyrannical king, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.
+
+        [PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a manufactory, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MedievalPlower14"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] lived on a planet where queens ruled with little regard for the peasants beneath them. [PAWN_possessive] family owned a large farm, but the queen took most of the food it produced. This left [PAWN_nameDef]'s family poor, and unable to pay for [PAWN_possessive] education. Instead, [PAWN_pronoun] was required to work the fields with [PAWN_possessive] parents, and never had time to practice creativity.</baseDesc>
+      <!--[PAWN_nameDef] lived on a planet where kings and queens ruled with little regard for the peasants beneath them. [PAWN_possessive] family owned a large farm, but the king took most of the food it produced. This left [PAWN_nameDef]'s family poor, and unable to pay for [PAWN_possessive] education. Instead, [PAWN_pronoun] was required to work the fields with [PAWN_possessive] parents, and never had time to practice creativity.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MidworldGeek18"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] grew up in a quiet suburban neighborhood. [PAWN_pronoun] was never a master of social interaction, but [PAWN_possessive] interest in computers blossomed into a true talent at an early age.</baseDesc>
+      <!--[PAWN_nameDef] grew up in a quiet suburban neighborhood. [PAWN_pronoun] was never a master of social interaction, but [PAWN_possessive] interest in computers blossomed into a true talent at an early age.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MedievalSquire5"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] grew up on a medieval planet as a knight in training. [PAWN_pronoun] trained directly under the queen's war adviser for most of [PAWN_possessive] youth, and learned to fight with a sword and shield.</baseDesc>
+      <!--[PAWN_nameDef] grew up on a medieval planet as a knight in training. [PAWN_pronoun] trained directly under the king's war adviser for most of [PAWN_possessive] youth, and learned to fight with a sword and shield.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ChessMaster67"]/title</xpath>
+    <value>
+      <title>chess master</title>
+      <!--chess master-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ChildKnave69"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a child-knave of Queen Loteric. [PAWN_pronoun] enjoyed the training with wooden sticks and engaging others in close combat. [PAWN_pronoun] adapted quickly to the heat of battle and was good at spreading fire.
+
+[PAWN_pronoun] served [PAWN_possessive] lady well, until the queen died in an unfortunate accident.</baseDesc>
+      <!--[PAWN_nameDef] was a child-knave of King Loteric. [PAWN_pronoun] enjoyed the training with wooden sticks and engaging others in close combat. [PAWN_pronoun] adapted quickly to the heat of battle and was good at spreading fire.
+
+[PAWN_pronoun] served [PAWN_possessive] lord well, until the king died in an unfortunate accident.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="YoungMaster23"]/title</xpath>
+    <value>
+      <title>young mistress</title>
+      <!--young master-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="YoungMaster23"]/titleShort</xpath>
+    <value>
+      <titleShort>mistress</titleShort>
+      <!--master-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ServingBoy97"]/title</xpath>
+    <value>
+      <title>serving girl</title>
+      <!--serving boy-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ServingBoy97"]/titleShort</xpath>
+    <value>
+      <titleShort>house girl</titleShort>
+      <!--house boy-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="RoyalBastard64"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was the child of a lady and a prostitute.
+\n[PAWN_possessive] gene mother's line was secure and her holdings strong. Nobody ever came to [PAWN_nameDef] to endorse a bid for the title. [PAWN_pronoun] earned [PAWN_possessive] bread cleaning the brothel, but always felt [PAWN_pronoun] deserved much more.</baseDesc>
+      <!--[PAWN_nameDef] was the child of a lord and a prostitute.
+\n[PAWN_possessive] father's line was secure and his holdings strong. Nobody ever came to [PAWN_nameDef] to endorse a bid for the title. [PAWN_pronoun] earned [PAWN_possessive] bread cleaning the brothel, but always felt [PAWN_pronoun] deserved much more.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="WarBastard60"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was born nine months after [PAWN_possessive] birth mother's town was conquered by enemy soldiers. The child of violence with no acknowledged gene mother, [PAWN_nameDef] grew up at the bottom of the social pyramid.
+\n[PAWN_possessive] birth mother instilled her bitterness towards people and war into [PAWN_nameDef]. [PAWN_possessive] pet rabbit offered more warmth than any human in [PAWN_possessive] life.</baseDesc>
+      <!--[PAWN_nameDef] was born nine months after [PAWN_possessive] mother's town was conquered by enemy soldiers. The child of violence with no acknowledged father, [PAWN_nameDef] grew up at the bottom of the social pyramid.
+\n[PAWN_possessive] mother instilled her bitterness towards men and war into [PAWN_nameDef]. [PAWN_possessive] pet rabbit offered more warmth than any human in [PAWN_possessive] life.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="InfantryOfficer49"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was an officer in an imperial battalion. [PAWN_pronoun] developed the social and combat skills to do [PAWN_possessive] job well and was respected by the women.</baseDesc>
+      <!--[PAWN_nameDef] was an officer in an imperial battalion. [PAWN_pronoun] developed the social and combat skills to do [PAWN_possessive] job well and was respected by the men.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="DisgracedOfficer19"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was an officer in an imperial battalion. [PAWN_pronoun] developed the social and combat skills to do [PAWN_possessive] job well and was respected by the women.
+\nWhen [PAWN_possessive] unit came under direct fire for the first time, [PAWN_nameDef] fled to a bunker and hid. [PAWN_pronoun] was demoted and never escaped the disgrace.</baseDesc>
+      <!--[PAWN_nameDef] was an officer in an imperial battalion. [PAWN_pronoun] developed the social and combat skills to do [PAWN_possessive] job well and was respected by the men.
+\nWhen [PAWN_possessive] unit came under direct fire for the first time, [PAWN_nameDef] fled to a bunker and hid. [PAWN_pronoun] was demoted and never escaped the disgrace.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MilitaryCommissar71"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was an internal spymaster in an imperial army battalion. [PAWN_pronoun] made sure that the women were loyal, and did not fall back unless ordered. This made [PAWN_objective] unpopular, but [PAWN_pronoun] gained great skill at detecting the slightest dishonesty.</baseDesc>
+      <!--[PAWN_nameDef] was an internal spymaster in an imperial army battalion. [PAWN_pronoun] made sure that the men were loyal, and did not fall back unless ordered. This made [PAWN_objective] unpopular, but [PAWN_pronoun] gained great skill at detecting the slightest dishonesty.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ShipBoy89"]/title</xpath>
+    <value>
+      <title>ship girl</title>
+      <!--ship boy-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ShipBoy89"]/titleShort</xpath>
+    <value>
+      <titleShort>ship girl</titleShort>
+      <!--ship boy-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Regent9"]/baseDesc</xpath>
+    <value>
+      <baseDesc>When [PAWN_nameDef]'s family's ally was killed, and [PAWN_possessive] young daughter inherited her throne, [PAWN_nameDef] was appointed as regent to rule in the child's stead.
+\n[PAWN_pronoun] oversaw diverse matters of house and title, from finances to war to greedy relatives intent on usurping the throne. [PAWN_nameDef] never abused [PAWN_possessive] position.</baseDesc>
+      <!--When [PAWN_nameDef]'s family's ally was killed, and [PAWN_possessive] young son inherited his throne, [PAWN_nameDef] was appointed as regent to rule in the child's stead.
+\n[PAWN_pronoun] oversaw diverse matters of house and title, from finances to war to greedy relatives intent on usurping the throne. [PAWN_nameDef] never abused [PAWN_possessive] position.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PamperedLordling37"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef]'s parents did not want another heir. Fearing a succession fight, they decided to neutralize [PAWN_objective] early.
+\nThey pampered [PAWN_nameDef] from birth, preventing [PAWN_objective] from developing the grit or knowledge necessary to be a threat to their favored daughter. [PAWN_nameDef] learned little more than how to manipulate the royal staff to get more food.</baseDesc>
+      <!--[PAWN_nameDef]'s parents did not want another heir. Fearing a succession fight, they decided to neutralize [PAWN_objective] early.
+\nThey pampered [PAWN_nameDef] from birth, preventing [PAWN_objective] from developing the grit or knowledge necessary to be a threat to their favored son. [PAWN_nameDef] learned little more than how to manipulate the royal staff to get more food.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MedievalLord57"]/title</xpath>
+    <value>
+      <title>medieval lady</title>
+      <!--medieval lord-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MedievalLord57"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a lady on a preindustrial planet. [PAWN_pronoun] went to parties, managed the underlings, and even learned some swordplay.\n\n[PAWN_possessive] soft hands did not hold a work tool during that entire time. [PAWN_pronoun] considers manual labor to be beneath [PAWN_objective].</baseDesc>
+      <!--[PAWN_nameDef] was a lord on a preindustrial planet. [PAWN_pronoun] went to parties, managed the underlings, and even learned some swordplay.\n\n[PAWN_possessive] soft hands did not hold a work tool during that entire time. [PAWN_pronoun] considers manual labor to be beneath [PAWN_objective].-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="BanishedSoldier85"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] became the most physically intimidating of the slaves, spending [PAWN_possessive] little free time obsessively sculpting [PAWN_possessive] body. [PAWN_possessive] efforts eventually paid off when the lady offered [PAWN_objective] a job as a personal bodyguard.
+
+Later, when [PAWN_pronoun] plotted to use [PAWN_possessive] position to kill the lady and free the slaves, [PAWN_pronoun] was discovered and barely escaped with [PAWN_possessive] life.</baseDesc>
+      <!--[PAWN_nameDef] became the most physically intimidating of the slaves, spending [PAWN_possessive] little free time obsessively sculpting [PAWN_possessive] body. [PAWN_possessive] efforts eventually paid off when the lord offered [PAWN_objective] a job as a personal bodyguard.
+
+Later, when [PAWN_pronoun] plotted to use [PAWN_possessive] position to kill the lord and free the slaves, [PAWN_pronoun] was discovered and barely escaped with [PAWN_possessive] life.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MindwipedAssassin50"]/baseDesc</xpath>
+    <value>
+      <baseDesc>The corporation took and remade [PAWN_nameDef]. They trained [PAWN_objective] into an tool of destruction and subversion. [PAWN_pronoun] took to [PAWN_possessive] new life, finding satisfaction in the jobs they sent [PAWN_objective] on.
+
+When [PAWN_pronoun] learned that they planned on disposing of [PAWN_objective], [PAWN_nameDef] turned on [PAWN_possessive] mistresses, killing several and fleeing the planet.</baseDesc>
+      <!--The corporation took and remade [PAWN_nameDef]. They trained [PAWN_objective] into an tool of destruction and subversion. [PAWN_pronoun] took to [PAWN_possessive] new life, finding satisfaction in the jobs they sent [PAWN_objective] on.
+
+When [PAWN_pronoun] learned that they planned on disposing of [PAWN_objective], [PAWN_nameDef] turned on [PAWN_possessive] masters, killing several and fleeing the planet.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="UrbworldSexSlave25"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was sold into sexual slavery. Having been designed to be inhumanly attractive and too weak to rebel against [PAWN_possessive] mistresses, [PAWN_pronoun] was passed between dozens of owners and knew nothing of freedom.</baseDesc>
+      <!--[PAWN_nameDef] was sold into sexual slavery. Having been designed to be inhumanly attractive and too weak to rebel against [PAWN_possessive] masters, [PAWN_pronoun] was passed between dozens of owners and knew nothing of freedom.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="SystemLord77"]/title</xpath>
+    <value>
+      <title>system lady</title>
+      <!--system lord-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="SystemLord77"]/titleShort</xpath>
+    <value>
+      <titleShort>lady</titleShort>
+      <!--lord-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="CrimeLord10"]/title</xpath>
+    <value>
+      <title>crime lady</title>
+      <!--crime lord-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="CrimeLord10"]/titleShort</xpath>
+    <value>
+      <titleShort>crime lady</titleShort>
+      <!--crime lord-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="CrimeLord10"]/baseDesc</xpath>
+    <value>
+      <baseDesc>Through brutality and cruelty, [PAWN_nameDef] rose to become a crime lady.
+
+[PAWN_pronoun] relied less on [PAWN_possessive] fists and more on [PAWN_possessive] guns. [PAWN_possessive] reputation spread quickly due to [PAWN_possessive] cold-bloodedness and ruthless methods.</baseDesc>
+      <!--Through brutality and cruelty, [PAWN_nameDef] rose to become a crime lord.
+
+[PAWN_pronoun] relied less on [PAWN_possessive] fists and more on [PAWN_possessive] guns. [PAWN_possessive] reputation spread quickly due to [PAWN_possessive] cold-bloodedness and ruthless methods.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MobHenchman53"]/baseDesc</xpath>
+    <value>
+      <baseDesc>After being "saved" from [PAWN_possessive] home world by a slaver ship, [PAWN_nameDef] was sold to an urbworld crime lady, where [PAWN_pronoun] was used as a henchman. [PAWN_pronoun] specialized in low-tech beat-downs and intimidation.</baseDesc>
+      <!--After being "saved" from [PAWN_possessive] home world by a slaver ship, [PAWN_nameDef] was sold to an urbworld crime lord, where [PAWN_pronoun] was used as a henchman. [PAWN_pronoun] specialized in low-tech beat-downs and intimidation.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MercenaryLord13"]/title</xpath>
+    <value>
+      <title>mercenary lady</title>
+      <!--mercenary lord-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MercenaryLord13"]/titleShort</xpath>
+    <value>
+      <titleShort>merc lady</titleShort>
+      <!--merc lord-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="CommonerLord45"]/title</xpath>
+    <value>
+      <title>commoner lady</title>
+      <!--commoner lord-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="CommonerLord45"]/titleShort</xpath>
+    <value>
+      <titleShort>lady</titleShort>
+      <!--lord-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="RebelSlave14"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was born into corporate slavery and raised to perform menial tasks for minimum pay. [PAWN_pronoun] was just another cog in the machine.
+
+[PAWN_nameDef] found [PAWN_possessive] freedom by joining a rebel organization whose goal was to break free from their corporate mistresses.</baseDesc>
+      <!--[PAWN_nameDef] was born into corporate slavery and raised to perform menial tasks for minimum pay. [PAWN_pronoun] was just another cog in the machine. 
+
+[PAWN_nameDef] found [PAWN_possessive] freedom by joining a rebel organization whose goal was to break free from their corporate masters.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MedievalSlave50"]/baseDesc</xpath>
+    <value>
+      <baseDesc>Born into slavery, [PAWN_nameDef] never knew [PAWN_possessive] parents. [PAWN_pronoun] eventually escaped from [PAWN_possessive] mistresses and boarded a military cargo ship, where [PAWN_pronoun] was pressed into military service.</baseDesc>
+      <!--Born into slavery, [PAWN_nameDef] never knew [PAWN_possessive] parents. [PAWN_pronoun] eventually escaped from [PAWN_possessive] masters and boarded a military cargo ship, where [PAWN_pronoun] was pressed into military service.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="VatgrownSlavegirl8"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was vat-grown as a slave in an illegal urbworld laboratory. As a young child, [PAWN_pronoun] was taught only to cook, clean and serve [PAWN_possessive] mistresses. For most of [PAWN_possessive] childhood, [PAWN_pronoun] knew nothing else.</baseDesc>
+      <!--[PAWN_nameDef] was vat-grown as a slave in an illegal urbworld laboratory. As a young child, [PAWN_pronoun] was taught only to cook, clean and serve [PAWN_possessive] masters. For most of [PAWN_possessive] childhood, [PAWN_pronoun] knew nothing else.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="HeadButler50"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was the head servant in a royal house.
+\n[PAWN_pronoun] managed the other servants to ensure the lady's will was done, even before the lady knew what it was.</baseDesc>
+      <!--[PAWN_nameDef] was the head servant in a royal house.
+\n[PAWN_pronoun] managed the other servants to ensure the lord's will was done, even before the lord knew what it was.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="RoyalMasseuse43"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a massage artist for an extended royal house. [PAWN_pronoun] serviced many members of the royal family, and their guests.
+\n[PAWN_nameDef] occasionally offered something extra, if the lady was in the mood. Advancing in this line of work meant having refined social skills.</baseDesc>
+      <!--[PAWN_nameDef] was a massage artist for an extended royal house. [PAWN_pronoun] serviced many members of the royal family, and their guests.
+\n[PAWN_nameDef] occasionally offered something extra, if the lord or lady was in the mood. Advancing in this line of work meant having refined social skills.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="PiousSoldier67"]/baseDesc</xpath>
+    <value>
+      <baseDesc>When not training or combat, [PAWN_nameDef] was often at the chaplain's side. [PAWN_pronoun] dedicated [PAWN_possessive] life to serving both [PAWN_possessive] lady and [PAWN_possessive] religion.</baseDesc>
+      <!--When not training or combat, [PAWN_nameDef] was often at the chaplain's side. [PAWN_pronoun] dedicated [PAWN_possessive] life to serving both [PAWN_possessive] lord and [PAWN_possessive] religion.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="LoyalJanissary59"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a janissary in a great lady's army. Even more than the other troops, [PAWN_pronoun] felt a sense of duty, and [PAWN_pronoun] drew [PAWN_possessive] life's meaning from the effort [PAWN_pronoun] put to fulfilling [PAWN_possessive] duty.</baseDesc>
+      <!--[PAWN_nameDef] was a janissary in a great lord's army. Even more than the other troops, [PAWN_pronoun] felt a sense of duty, and [PAWN_pronoun] drew [PAWN_possessive] life's meaning from the effort [PAWN_pronoun] put to fulfilling [PAWN_possessive] duty.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="RoyalGuard51"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] guarded the personal palace of a powerful lady.
+\nWhile violence was rare, palace intrigue was constant. [PAWN_nameDef]'s work taught [PAWN_pronoun] to handle both words and guns.</baseDesc>
+      <!--[PAWN_nameDef] guarded the personal palace of a powerful lord.
+\nWhile violence was rare, palace intrigue was constant. [PAWN_nameDef]'s work taught [PAWN_pronoun] to handle both words and guns.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="CountryLordling92"]/titleShort</xpath>
+    <value>
+      <titleShort>field lady</titleShort>
+      <!--field lord-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="UrbanLordling82"]/titleShort</xpath>
+    <value>
+      <titleShort>city lady</titleShort>
+      <!--city lord-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ShipboundLordling12"]/titleShort</xpath>
+    <value>
+      <titleShort>ship lady</titleShort>
+      <!--ship lord-->
     </value>
   </Operation>
 </Patch>

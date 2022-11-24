@@ -20,7 +20,14 @@ fixes = {
   /\bhe\b/i => 'she',
   /\bhim\b/i => 'her',
   /\bhis\b/i => 'hers',
-  /\bboy(s?)\b/i => 'girl\1'
+  /\bboy(s?)\b/i => 'girl\1',
+  /\bking(s?)\b/i => 'queen\1',
+  /\bmaster(s?)\b/i => 'mistress\1',
+  /\bswordsman\b/i => 'swordswoman',
+  /\bgunman\b/i => 'gunwoman',
+  /\bswordsmen\b/i => 'swordswomen',
+  /\bgunmen\b/i => 'gunwomen',
+  /\blord\b/i => 'lady',
 }
 
 need_patch_pattern = Regexp.union *fixes.keys
