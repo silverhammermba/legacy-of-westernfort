@@ -9,6 +9,7 @@ the setting of the books hundreds of years after their conclusion.
     expansion. It looks like it uses weapon-targeting logic
   * [Jec's Tools'](https://github.com/jecrell/JecsTools) `CompAbilityUser` could
     be a foundation for this, but it would be nice to not add the dependency
+  * AbilityDefs are built-in. But core only has abstract ones: Data/Core/Defs/AbilityDefs/AbilityDefs.xml
   * If Royalty is installed, the implementation should use the existing psi
     system
   * Cloning/imprinting for animals
