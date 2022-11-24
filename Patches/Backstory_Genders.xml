@@ -1593,4 +1593,318 @@ When [PAWN_pronoun] learned that they planned on disposing of [PAWN_objective], 
       <!--ship lord-->
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ImperialGeneral27"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef]'s thirst for power defined [PAWN_objective]. [PAWN_pronoun] quickly rose through the military ranks and soon attained the rank of general.
+
+[PAWN_pronoun] was given the most challenging task - conquering distant and unexplored rimworlds. Victory here could even position [PAWN_objective] as a successor to the empress.</baseDesc>
+      <!--[PAWN_nameDef]'s thirst for power defined [PAWN_objective]. [PAWN_pronoun] quickly rose through the military ranks and soon attained the rank of general.
+
+[PAWN_pronoun] was given the most challenging task - conquering distant and unexplored rimworlds. Victory here could even position [PAWN_objective] as a successor to the emperor.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="CommonerLord45"]/baseDesc</xpath>
+    <value>
+      <baseDesc>After years of training in martial arts and diplomacy, [PAWN_nameDef] was eventually given land and subjects of [PAWN_possessive] own to rule.
+
+        Because of [PAWN_nameDef]'s commoner heritage, the other ladies disapproved. They framed [PAWN_objective] for a heinous crime, and the empress had no choice but to exile [PAWN_objective].</baseDesc>
+      <!--After years of training in martial arts and diplomacy, [PAWN_nameDef] was eventually given land and subjects of [PAWN_possessive] own to rule.
+
+        Because of [PAWN_nameDef]'s commoner heritage, the other lords disapproved. They framed [PAWN_objective] for a heinous crime, and the emperor had no choice but to exile [PAWN_objective].-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="CommonerHeir5"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a street urchin on a feudal steamworld.
+
+        After [PAWN_pronoun] tried to steal food from the palace, the empress, desperate to secure an heir, took [PAWN_objective] in and groomed [PAWN_objective] to be next in line for the throne.</baseDesc>
+      <!--[PAWN_nameDef] was a street urchin on a feudal steamworld.
+
+        After [PAWN_pronoun] tried to steal food from the palace, the emperor, desperate to secure an heir, took [PAWN_objective] in and groomed [PAWN_objective] to be next in line for the throne.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="HouseServant86"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a low-level servant in a royal house.
+\n[PAWN_pronoun] cleaned rooms and moved items as directed by the senior staff, while attempting to remain invisible to the ladies of the house.</baseDesc>
+      <!--[PAWN_nameDef] was a low-level servant in a royal house.
+\n[PAWN_pronoun] cleaned rooms and moved items as directed by the senior staff, while attempting to remain invisible to the lords and ladies of the house.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ServingBoy97"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was the child of house servants, and was trained to carry on the family duty.
+\n[PAWN_pronoun] carried things and polished silverware, but was never allowed into the ladies' part of the house.</baseDesc>
+      <!--[PAWN_nameDef] was the child of house servants, and was trained to carry on the family duty.
+\n[PAWN_pronoun] carried things and polished silverware, but was never allowed into the lords' part of the house.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Propagandist86"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a skilled artist and military propagandist. [PAWN_pronoun] created works of art depicting [PAWN_possessive] ladies and armies fovourably.</baseDesc>
+      <!--[PAWN_nameDef] was a skilled artist and military propagandist. [PAWN_pronoun] created works of art depicting [PAWN_possessive] lords and armies fovourably.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MedievalLordling19"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a minor noble in an old kingdom on a medieval world. [PAWN_pronoun] grew up in a manor made of stone, served by bowing lowerclasswomen.\n\nSuch a life teaches no technical skills and instils a lifelong aversion to manual labor - but [PAWN_nameDef] learned early the ways of social manipulation.</baseDesc>
+      <!--[PAWN_nameDef] was a minor noble in an old kingdom on a medieval world. [PAWN_pronoun] grew up in a manor made of stone, served by bowing lowerclassmen.\n\nSuch a life teaches no technical skills and instils a lifelong aversion to manual labor - but [PAWN_nameDef] learned early the ways of social manipulation.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Policeman45"]/title</xpath>
+    <value>
+      <title>policewoman</title>
+      <!--policeman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Policeman45"]/titleShort</xpath>
+    <value>
+      <titleShort>policewoman</titleShort>
+      <!--policeman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MuffaloShaman95"]/title</xpath>
+    <value>
+      <title>muffalo shaman</title>
+      <!--muffalo shaman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MuffaloShaman95"]/titleShort</xpath>
+    <value>
+      <titleShort>shaman</titleShort>
+      <!--shaman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="SpaceHunter79"]/titleShort</xpath>
+    <value>
+      <titleShort>huntswoman</titleShort>
+      <!--huntsman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="BusinessGangster58"]/baseDesc</xpath>
+    <value>
+      <baseDesc>Staying one step ahead of the law, [PAWN_nameDef] became a legitimate businesswoman and silenced anyone who dared say otherwise. As proprietor of brothels, speakeasies and eateries, [PAWN_nameDef]'s good fortune continued while [PAWN_possessive] competition suffered a series of unfortunate and unexplained accidents.</baseDesc>
+      <!--Staying one step ahead of the law, [PAWN_nameDef] became a legitimate businessman and silenced anyone who dared say otherwise. As proprietor of brothels, speakeasies and eateries, [PAWN_nameDef]'s good fortune continued while [PAWN_possessive] competition suffered a series of unfortunate and unexplained accidents.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="SpaceshipSalesman34"]/title</xpath>
+    <value>
+      <title>spaceship saleswoman</title>
+      <!--spaceship salesman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="SpaceshipSalesman34"]/titleShort</xpath>
+    <value>
+      <titleShort>saleswoman</titleShort>
+      <!--salesman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="SpaceshipSalesman34"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] tried [PAWN_possessive] hand at various jobs, including building space rabbit cages and working at a mutant wheat research project. Finally, [PAWN_pronoun] found [PAWN_possessive] true calling as a spacecraft saleswoman. Specializing in recreational spacecraft, [PAWN_possessive] smooth talk and charming nature served [PAWN_objective] well.</baseDesc>
+      <!--[PAWN_nameDef] tried [PAWN_possessive] hand at various jobs, including building space rabbit cages and working at a mutant wheat research project. Finally, [PAWN_pronoun] found [PAWN_possessive] true calling as a spacecraft salesman. Specializing in recreational spacecraft, [PAWN_possessive] smooth talk and charming nature served [PAWN_objective] well.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="UrbworldSergeant50"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef]'s passion for all things militaristic kept with [PAWN_objective] all the way to adulthood.
+
+After enrolling as a local policewoman, [PAWN_pronoun] was soon promoted to sergeant.</baseDesc>
+      <!--[PAWN_nameDef]'s passion for all things militaristic kept with [PAWN_objective] all the way to adulthood.
+
+After enrolling as a local policeman, [PAWN_pronoun] was soon promoted to sergeant.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MobHenchman53"]/title</xpath>
+    <value>
+      <title>mob henchwoman</title>
+      <!--mob henchman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MobHenchman53"]/titleShort</xpath>
+    <value>
+      <titleShort>henchwoman</titleShort>
+      <!--henchman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ExpertHandyman8"]/title</xpath>
+    <value>
+      <title>expert handywoman</title>
+      <!--expert handyman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ExpertHandyman8"]/titleShort</xpath>
+    <value>
+      <titleShort>handywoman</titleShort>
+      <!--handyman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="AWOLSoldier49"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was an infantrywoman.
+
+When [PAWN_pronoun] was informed of [PAWN_possessive] assignment to the Xennoa-Zartza War, [PAWN_pronoun] decided [PAWN_pronoun] did not want to be a soldier. [PAWN_pronoun] was able to escape via military spacejet.</baseDesc>
+      <!--[PAWN_nameDef] was an infantryman.
+
+When [PAWN_pronoun] was informed of [PAWN_possessive] assignment to the Xennoa-Zartza War, [PAWN_pronoun] decided [PAWN_pronoun] did not want to be a soldier. [PAWN_pronoun] was able to escape via military spacejet.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ShamanOfShadows47"]/title</xpath>
+    <value>
+      <title>shaman of shadows</title>
+      <!--shaman of shadows-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ShamanOfShadows47"]/titleShort</xpath>
+    <value>
+      <titleShort>shaman</titleShort>
+      <!--shaman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ToasterRepairman22"]/title</xpath>
+    <value>
+      <title>toaster repairwoman</title>
+      <!--toaster repairman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="ToasterRepairman22"]/titleShort</xpath>
+    <value>
+      <titleShort>repairwoman</titleShort>
+      <!--repairman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="DrugLieutenant98"]/titleShort</xpath>
+    <value>
+      <titleShort>drugwoman</titleShort>
+      <!--drugman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Caravaneer53"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was the leader of a caravan. [PAWN_pronoun] was responsible for the safety of [PAWN_possessive] caravan and was the head negotiator in countless trade deals.
+
+[PAWN_pronoun] and [PAWN_possessive] people prospered, but their wealth made them a target for brigands. They often had to take up arms to fend off bandits and highwaywomen.</baseDesc>
+      <!--[PAWN_nameDef] was the leader of a caravan. [PAWN_pronoun] was responsible for the safety of [PAWN_possessive] caravan and was the head negotiator in countless trade deals.
+
+[PAWN_pronoun] and [PAWN_possessive] people prospered, but their wealth made them a target for brigands. They often had to take up arms to fend off bandits and highwaymen.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="DeepSpaceSurveyor1"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was a deep space surveyor. [PAWN_pronoun] studied which worlds were the most suitable for colonization.
+
+[PAWN_possessive] expeditions were met by hostile natives, green-painted space-women, and wannabe Greek gods. Surviving many firefights, [PAWN_pronoun] learned to build rudimentary lathes and rock cannons to fend off enemies.</baseDesc>
+      <!--[PAWN_nameDef] was a deep space surveyor. [PAWN_pronoun] studied which worlds were the most suitable for colonization.
+
+[PAWN_possessive] expeditions were met by hostile natives, green-painted space-women, and wannabe Greek gods. Surviving many firefights, [PAWN_pronoun] learned to build rudimentary lathes and rock cannons to fend off enemies.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="MercenaryLord13"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] formed a mercenary company out of freelancers who wanted to make good money while also making slightly better-than-average moral choices. [PAWN_pronoun] called it the Ashmarines.
+
+To avoid the coreworlds' military forces, [PAWN_pronoun] moved [PAWN_possessive] company to the rimworlds. There, [PAWN_pronoun] established bases and communities. In ruling, [PAWN_pronoun] maintained a form of order among the raiders and madwomen of deep space.</baseDesc>
+      <!--[PAWN_nameDef] formed a mercenary company out of freelancers who wanted to make good money while also making slightly better-than-average moral choices. [PAWN_pronoun] called it the Ashmarines.
+
+To avoid the coreworlds' military forces, [PAWN_pronoun] moved [PAWN_possessive] company to the rimworlds. There, [PAWN_pronoun] established bases and communities. In ruling, [PAWN_pronoun] maintained a form of order among the raiders and madmen of deep space.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="WorkCampSlave37"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] grew up as a slave to a particularly nasty noble family on a medieval world.
+
+While [PAWN_pronoun] received no formal education, the harsh labor regimen made [PAWN_possessive] body strong.</baseDesc>
+      <!--[PAWN_nameDef] grew up as a slave to a particularly nasty noble family on a medieval world. 
+
+While [PAWN_pronoun] received no formal education, the harsh labor regimen made [PAWN_possessive] body strong.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="StarforceCadet79"]/baseDesc</xpath>
+    <value>
+      <baseDesc>Raised on Amen-Ti, glitterworld capital of the Star Empire, [PAWN_nameFull] had an easy childhood.
+
+As a youth, [PAWN_nameDef] decided that joining the Starforce would be [PAWN_possessive] way of giving back to the Empire.</baseDesc>
+      <!--Raised on Amen-Ti, glitterworld capital of the Star Empire, [PAWN_nameFull] had an easy childhood.
+
+As a youth, [PAWN_nameDef] decided that joining the Starforce would be [PAWN_possessive] way of giving back to the Empire.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="FoundryApprentice76"]/titleShort</xpath>
+    <value>
+      <titleShort>foundrywoman</titleShort>
+      <!--foundryman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="TribalThunderer45"]/baseDesc</xpath>
+    <value>
+      <baseDesc>Years ago, [PAWN_nameDef]'s tribe stumbled upon an abandoned gun vault. Believing the weapons to be sacred gifts, the shaman would select a child born under superstitious circumstances and assign them the honour of bearing one to defend the village. [PAWN_nameDef] is such a child.</baseDesc>
+      <!--Years ago, [PAWN_nameDef]'s tribe stumbled upon an abandoned gun vault. Believing the weapons to be sacred gifts, the shaman would select a child born under superstitious circumstances and assign them the honour of bearing one to defend the village. [PAWN_nameDef] is such a child.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="SpaceyachtPilot89"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] ferried wealthy businesswomen and politicians to and from [PAWN_possessive] home world.
+
+        Witnessing the depths of hedonism these people descended to changed [PAWN_objective] in ways not even [PAWN_pronoun] understood.</baseDesc>
+      <!--[PAWN_nameDef] ferried wealthy businessmen and politicians to and from [PAWN_possessive] home world.
+
+        Witnessing the depths of hedonism these people descended to changed [PAWN_objective] in ways not even [PAWN_pronoun] understood.-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Mailman2"]/title</xpath>
+    <value>
+      <title>mailwoman</title>
+      <!--mailman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Mailman2"]/titleShort</xpath>
+    <value>
+      <titleShort>mailwoman</titleShort>
+      <!--mailman-->
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/BackstoryDef[defName="Artilleryman28"]/title</xpath>
+    <value>
+      <title>artillerywoman</title>
+      <!--artilleryman-->
+    </value>
+  </Operation>
 </Patch>

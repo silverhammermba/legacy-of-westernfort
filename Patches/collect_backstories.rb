@@ -10,9 +10,7 @@ fixes = {
   /\bbrother/i => 'sister',
   /grandfather/i => 'grandmother',
   /\bdad(s?)\b/i => 'mom\1',
-  /\bman\b/i => 'woman',
   /\bmanly\b/i => 'womanly',
-  /\bmen\b/i => 'women',
   /male/i => nil,
   /uncle/i => 'aunt',
   /nephew/i => 'niece',
@@ -23,11 +21,10 @@ fixes = {
   /\bboy(s?)\b/i => 'girl\1',
   /\bking(s?)\b/i => 'queen\1',
   /\bmaster(s?)\b/i => 'mistress\1',
-  /\bswordsman\b/i => 'swordswoman',
-  /\bgunman\b/i => 'gunwoman',
-  /\bswordsmen\b/i => 'swordswomen',
-  /\bgunmen\b/i => 'gunwomen',
-  /\blord\b/i => 'lady',
+  /(?<!wo)men\b/i => 'women',
+  /(?<!hu|wo)man\b/i => 'woman',
+  /\blord(s?)\b/i => 'lady\1',
+  /\bemperor(s?)\b/i => 'empress\1',
 }
 
 need_patch_pattern = Regexp.union *fixes.keys
