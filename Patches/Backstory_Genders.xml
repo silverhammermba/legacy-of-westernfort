@@ -39,7 +39,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/BackstoryDef[defName="WarRefugee96"]/baseDesc</xpath>
     <value>
-      <baseDesc>A war broke on out [PAWN_nameDef]'s home planet.
+      <baseDesc>A war broke out on [PAWN_nameDef]'s home planet.
 
 Gathering what little food and belongings they could, [PAWN_nameDef] and [PAWN_possessive] gene mother stole a ship and escaped into space.</baseDesc>
       <!--A war broke on out [PAWN_nameDef]'s home planet.

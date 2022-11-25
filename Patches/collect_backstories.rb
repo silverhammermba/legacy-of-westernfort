@@ -1,5 +1,29 @@
 require 'nokogiri'
 
+# given a file path, find the mod name for that file
+def mod_name file
+  dir = File.expand_path File.dirname(file)
+  loop do
+    begin
+      File.open(File.join(dir, 'About', 'About.xml')) do |about|
+        about_xml = Nokogiri::XML(about)
+        name = about_xml.xpath('ModMetaData/name/text()')
+        if name.empty?
+          return File.basename dir
+        else
+          return name.text
+        end
+      end
+    rescue
+      # no About in this directory, continue to next parent
+    end
+
+    next_dir = File.expand_path File.join(dir, '..')
+    fail "can't find mod for #{file}" if next_dir == dir
+    dir = next_dir
+  end
+end
+
 # backstory substitutions (nil means I will need to fix it manually)
 # TODO: police => militia ?
 fixes = {
@@ -20,11 +44,11 @@ fixes = {
   /\bhis\b/i => 'hers',
   /\bboy(s?)\b/i => 'girl\1',
   /\bking(s?)\b/i => 'queen\1',
-  /\bmaster(s?)\b/i => 'mistress\1',
+  /\bmaster(s?)\b/i => nil,
   /(?<!wo)men\b/i => 'women',
   /(?<!hu|wo)man\b/i => 'woman',
-  /\blord(s?)\b/i => 'lady\1',
-  /\bemperor(s?)\b/i => 'empress\1',
+  /\blord(s?)\b/i => nil,
+  /\bemperor(s?)\b/i => nil,
 }
 
 need_patch_pattern = Regexp.union *fixes.keys
@@ -48,6 +72,9 @@ patch_doc =
 patch = (patch_doc.root ||= Nokogiri::XML::Node.new('Patch', patch_doc))
 
 ARGV[1..-1].each do |input|
+  # first find which mod it's from
+  mod = mod_name(input)
+
   File.open(input) do |f|
     data = Nokogiri::XML(f)
 
