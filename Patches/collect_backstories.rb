@@ -71,6 +71,37 @@ patch_doc =
 
 patch = (patch_doc.root ||= Nokogiri::XML::Node.new('Patch', patch_doc))
 
+# operations per mod, lazily created
+operations = Hash.new do |h, mod|
+  # get existing FindMod operation
+  mods = patch.xpath("Operation/mods[li=\"#{mod}\"]")
+
+  if mods.empty?
+    # create new FindMod operation
+    op = Nokogiri::XML::Node.new 'Operation', patch_doc
+    op['Class'] = 'PatchOperationFindMod'
+    op.parent = patch
+
+    mods = Nokogiri::XML::Node.new 'mods', patch_doc
+    mods.parent = op
+
+    li = Nokogiri::XML::Node.new 'li', patch_doc
+    li.parent = mods
+    li.content = mod
+
+    match = Nokogiri::XML::Node.new 'match', patch_doc
+    match['Class'] = 'PatchOperationSequence'
+    match.parent = op
+
+    ops = Nokogiri::XML::Node.new 'operations', patch_doc
+    ops.parent = match
+
+    h[mod] = ops
+  else
+    h[mod] = mods[0].next.children[0]
+  end
+end
+
 ARGV[1..-1].each do |input|
   # first find which mod it's from
   mod = mod_name(input)
@@ -84,43 +115,40 @@ ARGV[1..-1].each do |input|
       patchable_nodes.each do |nodeName|
         node_value = backstory.at_xpath(nodeName).content
 
-        if node_value =~ need_patch_pattern
-          patch_xpath = "Defs/BackstoryDef[defName=\"#{name}\"]/#{nodeName}"
-          # ensure we don't add duplicate patches
-          next unless patch_doc.xpath("//xpath[text()='#{patch_xpath}']").empty?
+        # if this has a female version, we don't need to patch it
+        next if backstory.at_xpath("#{nodeName}Female")
+        # else check if it contains male gendered words
+        next unless node_value =~ need_patch_pattern
 
-          op = Nokogiri::XML::Node.new 'Operation', patch_doc
-          op['Class'] = 'PatchOperationReplace'
-          op.parent = patch
+        patch_xpath = "Defs/BackstoryDef[defName=\"#{name}\"]/#{nodeName}/text()"
+        # ensure we don't add duplicate patches
+        next unless patch_doc.xpath("//xpath[text()='#{patch_xpath}']").empty?
 
-          xpath = Nokogiri::XML::Node.new 'xpath', patch_doc
-          xpath.content = patch_xpath
-          xpath.parent = op
+        replace = Nokogiri::XML::Node.new 'li', patch_doc
+        replace['Class'] = 'PatchOperationReplace'
+        replace.parent = operations[mod]
 
-          value = Nokogiri::XML::Node.new 'value', patch_doc
-          value.parent = op
+        xpath = Nokogiri::XML::Node.new 'xpath', patch_doc
+        xpath.content = patch_xpath
+        xpath.parent = replace
 
-          todo = Nokogiri::XML::Comment.new patch_doc, ' TODO '
-          todo.parent = value
+        todo = Nokogiri::XML::Comment.new patch_doc, " TODO: #{node_value}"
+        todo.parent = replace
 
-          patch_node = Nokogiri::XML::Node.new nodeName, patch_doc
-          patch_node.parent = value
+        value = Nokogiri::XML::Node.new 'value', patch_doc
+        value.parent = replace
 
-          fixed = node_value.dup
-          fixes.each do |pattern, replacement|
-            next unless replacement
-            fixed.gsub!(pattern, replacement)
-          end
-          patch_node.content = fixed
-
-          original = Nokogiri::XML::Comment.new patch_doc, node_value
-          original.parent = value
+        fixed = node_value.dup
+        fixes.each do |pattern, replacement|
+          next unless replacement
+          fixed.gsub!(pattern, replacement)
         end
+        value.content = fixed
       end
     end
   end
 end
 
 File.open(ARGV[0], ?w) do |f|
-  f.write patch_doc.to_xml
+  f.write patch_doc.to_xml(indent_text: "\t", indent: 1)
 end
